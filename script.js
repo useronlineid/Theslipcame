@@ -12,10 +12,10 @@ function updateDisplay() {
 
     let bankLogoUrl = ''; // You need to set the appropriate logo URL based on the selected bank
     switch (document.getElementById('bank').value) {
-        case 'กสิกรไทย':
+        case 'ธ.กสิกรไทย':
             bankLogoUrl = 'https://github.com/useronlineid/document1/blob/main/KBANK.png?raw=true'; // Replace with actual URL
             break;
-        case 'กรุงไทย':
+        case 'ธ.กรุงไทย':
             bankLogoUrl = 'https://github.com/useronlineid/document1/blob/main/KTB.png?raw=true'; // Replace with actual URL
             break;
         // Add more cases for other banks
