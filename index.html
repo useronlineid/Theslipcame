@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer Information</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form-section">
+            <h2>แก้ไขข้อมูลการโอนเงิน</h2>
+            <form id="transfer-form">
+                <label for="sender-name">ผู้โอน</label>
+                <input type="text" id="sender-name" name="sender-name" value="นาง จุฑามาศ ป">
+
+                <label for="sender-account">เลขบัญชีผู้โอน</label>
+                <input type="text" id="sender-account" name="sender-account" value="xxx-x-x5269-x">
+
+                <label for="receiver-name">ผู้รับโอน</label>
+                <input type="text" id="receiver-name" name="receiver-name" value="นาง จุฑามาศ ปกกดนสน">
+
+                <label for="receiver-account">บโอน</label>
+                <input type="text" id="receiver-account" name="receiver-account" value="xxx-x-x0142-x">
+
+                <label for="bank">เลือกธนาคาร</label>
+                <select id="bank" name="bank">
+                    <option value="กสิกรไทย">ธ.กสิกรไทย</option>
+                    <option value="กรุงไทย">ธ.กรุงไทย</option>
+                    <!-- Add other banks as needed -->
+                </select>
+
+                <label for="transaction-id">เลขที่รายการ</label>
+                <input type="text" id="transaction-id" name="transaction-id" value="014136170432BOR85620">
+
+                <label for="amount">จำนวนเงิน</label>
+                <input type="text" id="amount" name="amount" value="3,200.00">
+
+                <label for="date-time">วันที่/เวลา</label>
+                <input type="text" id="date-time" name="date-time" value="15 พ.ค. 67 17:04 น.">
+
+                <label for="qrcode">QRCode</label>
+                <input type="text" id="qrcode" name="qrcode" value="https://imgz.io/images/2024/07/13/qrui-1720879150127fecb3faeea50bae5.png">
+
+                <button type="button" onclick="saveAsImage()">Save Image</button>
+            </form>
+        </div>
+
+        <div class="display-section" id="display-section">
+            <div class="receipt">
+                <p id="display-date-time">15 พ.ค. 67 17:04 น.</p>
+                <p id="display-message-1">ธ.กสิกรไทย</p>
+                <p id="display-sender-name">นาง จุฑามาศ ป</p>
+                <p id="display-sender-account">xxx-x-x5269-x</p>
+                <p id="display-receiver-name">นาง จุฑามาศ ปกกดนสน</p>
+                <p id="display-receiver-account">xxx-x-x0142-x</p>
+                <p id="display-transaction-id">014136170432BOR85620</p>
+                <p id="display-amount">3,200.00 บาท</p>
+                <p id="display-fee">0.00 บาท</p>
+                <p id="display-bank">ธ.กสิกรไทย</p>
+                <img id="display-bank-logo" src="" alt="Bank Logo" width="100" height="100">
+                <img id="display-qrcode" src="https://imgz.io/images/2024/07/13/qrui-1720879150127fecb3faeea50bae5.png" alt="QRCode" width="100" height="100">
+                <img id="additional-image" src="https://github.com/useronlineid/document1/blob/main/KBANK.png?raw=true" alt="Additional Image" width="100" height="100">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
