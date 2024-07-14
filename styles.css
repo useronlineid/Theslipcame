@@ -94,9 +94,9 @@ form button:hover {
 }
 
 .receipt {
-    width: 550px; /* Adjust width to match image dimensions */
-    height: 784px; /* Adjust height to match image dimensions */
-    background: url('https://github.com/useronlineid/document/blob/main/2222.jpg?raw=true') no-repeat center center;
+    width: 645px; /* Adjust width to match image dimensions */
+    height: 919px; /* Adjust height to match image dimensions */
+    background: url('https://github.com/useronlineid/document1/blob/main/11111111.png?raw=true') no-repeat center center;
     background-size: cover;
     background-color: white; /* For any area not covered by the image */
     text-align: center;
@@ -110,45 +110,45 @@ form button:hover {
 }
 
 #display-date-time {
-    top: 57px; /* Adjust position as needed */
-    left: 45px; /* Adjust position as needed */
-    font-size: 25px; /* Initial font size */
+    top: 65.8px; /* Adjust position as needed */
+    left: 53px; /* Adjust position as needed */
+    font-size: 30px; /* Initial font size */
     font-weight: 600;
     color: #565656; /* Initial color */
-    letter-spacing: 0.2px; /* Adjust letter spacing as needed */
+    letter-spacing: 0.1px; /* Adjust letter spacing as needed */
 }
 
 #display-sender-name {
-    top: 146px; /* Adjust position as needed */
-    left: 155px; /* Adjust position as needed */
-    font-size: 26px; /* Initial font size */
+    top: 173px; /* Adjust position as needed */
+    left: 182px; /* Adjust position as needed */
+    font-size: 30.5px; /* Initial font size */
     font-weight: 600;
     color: #565656; /* Initial color */
     letter-spacing: -0.4px; /* Adjust letter spacing as needed */
 }
 
 #display-message-1 {
-    top: 186px; /* Adjust position as needed */
-    left: 155px; /* Adjust position as needed */
-    font-size: 25px; /* Initial font size */
+    top: 217px; /* Adjust position as needed */
+    left: 182px; /* Adjust position as needed */
+    font-size: 30px; /* Initial font size */
     font-weight: 500;
     color: #606060; /* Initial color */
-    letter-spacing: 0.05px; /* Adjust letter spacing as needed */
+    letter-spacing: 0px; /* Adjust letter spacing as needed */
 }
 
 #display-sender-account {
-    top: 225px; /* Adjust position as needed */
-    left: 155px; /* Adjust position as needed */
-    font-size: 25px; /* Initial font size */
+    top: 263px; /* Adjust position as needed */
+    left: 182px; /* Adjust position as needed */
+    font-size: 30px; /* Initial font size */
     font-weight: 500;
     color: #606060; /* Initial color */
-    letter-spacing: 0.05px; /* Adjust letter spacing as needed */
+    letter-spacing: 0px; /* Adjust letter spacing as needed */
 }
 
 #display-receiver-name {
     top: 344px; /* Adjust position as needed */
-    left: 155px; /* Adjust position as needed */
-    font-size: 26px; /* Initial font size */
+    left: 182px; /* Adjust position as needed */
+    font-size: 30.5px; /* Initial font size */
     font-weight: 600;
     color: #565656; /* Initial color */
     letter-spacing: -0.4px; /* Adjust letter spacing as needed */
@@ -156,11 +156,11 @@ form button:hover {
 
 #display-receiver-account {
     top: 424px; /* Adjust position as needed */
-    left: 155px; /* Adjust position as needed */
-    font-size: 25px; /* Initial font size */
+    left: 182px; /* Adjust position as needed */
+    font-size: 30px; /* Initial font size */
     font-weight: 500;
     color: #606060; /* Initial color */
-    letter-spacing: 0.05px; /* Adjust letter spacing as needed */
+    letter-spacing: 0px; /* Adjust letter spacing as needed */
 }
 
 #display-transaction-id {
@@ -198,18 +198,18 @@ form button:hover {
 
 #display-bank {
     top: 385px; /* Adjust position as needed */
-    left: 155px; /* Adjust position as needed */
-    font-size: 25px; /* Initial font size */
+    left: 182px; /* Adjust position as needed */
+    font-size: 30px; /* Initial font size */
     font-weight: 500;
     color: #606060; /* Initial color */
     letter-spacing: 0.05px; /* Adjust letter spacing as needed */
 }
 
 #display-bank-logo {
-    top: 344px; /* Adjust position as needed */
-    left: 22px; /* Adjust position as needed */
-    width: 103px; /* Adjust width as needed */
-    height: 103px; /* Adjust height as needed */
+    top: 403px; /* Adjust position as needed */
+    left: 25px; /* Adjust position as needed */
+    width: 122px; /* Adjust width as needed */
+    height: 122px; /* Adjust height as needed */
     position: absolute; /* Ensure absolute positioning */
 }
 
@@ -222,10 +222,10 @@ form button:hover {
 }
 
 #additional-image {
-    top: 145px; /* Adjust position as needed */
-    left: 22px; /* Adjust position as needed */
-    width: 103px; /* Adjust width as needed */
-    height: 103px; /* Adjust height as needed */
+    top: 169px; /* Adjust position as needed */
+    left: 25px; /* Adjust position as needed */
+    width: 122px; /* Adjust width as needed */
+    height: 122px; /* Adjust height as needed */
     position: absolute; /* Ensure absolute positioning */
 }
 
