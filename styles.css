@@ -96,7 +96,7 @@ form button:hover {
 .receipt {
     width: 584px; /* Adjust width to match image dimensions */
     height: 830px; /* Adjust height to match image dimensions */
-    background: url('https://github.com/useronlineid/document1/blob/main/11111111.png?raw=true') no-repeat center center;
+    background: url('https://github.com/useronlineid/document/blob/main/2222.jpg?raw=true') no-repeat center center;
     background-size: cover;
     background-color: white; /* For any area not covered by the image */
     text-align: center;
