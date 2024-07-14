@@ -6,37 +6,37 @@
 
 @font-face {
     font-family: 'Sukhumvit Set';
-    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Thin.ttf?raw=true') format('truetype');
+    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Thin.ttf') format('truetype');
     font-weight: 100;
 }
 
 @font-face {
     font-family: 'Sukhumvit Set';
-    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Text.ttf?raw=true') format('truetype');
+    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Text.ttf') format('truetype');
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'Sukhumvit Set';
-    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-SemiBold.ttf?raw=true') format('truetype');
+    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-SemiBold.ttf') format('truetype');
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'Sukhumvit Set';
-    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Medium.ttf?raw=true') format('truetype');
+    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Medium.ttf') format('truetype');
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'Sukhumvit Set';
-    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Light.ttf?raw=true') format('truetype');
+    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Light.ttf') format('truetype');
     font-weight: 200;
 }
 
 @font-face {
     font-family: 'Sukhumvit Set';
-    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Bold.ttf?raw=true') format('truetype');
+    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Bold.ttf') format('truetype');
     font-weight: 700;
     
 }
