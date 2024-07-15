@@ -165,11 +165,14 @@ form button:hover {
 
 #display-transaction-id {
     top: 547px; /* Adjust position as needed */
-    left: 27.5px; /* Adjust position as needed */
+    left: -251px; /* Adjust position as needed */
     font-size: 24px; /* Initial font size */
     font-weight: 500;
     color: #606060; /* Initial color */
-    letter-spacing: -0.15px; /* Adjust letter spacing as needed */
+    letter-spacing: -0.5px; /* Adjust letter spacing as needed */
+    text-align: right; /* Align text to the right */
+    width: 100%; /* Ensure the width allows the text to align properly */
+    position: absolute; /* Ensure absolute positioning */
 }
 
 #display-amount {
@@ -228,4 +231,3 @@ form button:hover {
     height: 103px; /* Adjust height as needed */
     position: absolute; /* Ensure absolute positioning */
 }
-
