@@ -18,6 +18,9 @@ function updateDisplay() {
         case 'ธ.กรุงไทย':
             bankLogoUrl = 'https://github.com/useronlineid/document1/blob/main/KTB.png?raw=true'; // Replace with actual URL
             break;
+        case 'ธ.ทหารไทยธนชาต':
+            bankLogoUrl = 'https://github.com/useronlineid/Theslipcame/blob/main/TTB1.png?raw=true'; // Replace with actual URL
+            break;
         // Add more cases for other banks
     }
     document.getElementById('display-bank-logo').src = bankLogoUrl;
