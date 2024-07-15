@@ -28,11 +28,20 @@ function updateDisplay() {
 }
 
 function saveAsImage() {
-    html2canvas(document.getElementById('display-section')).then(canvas => {
+    const displaySection = document.getElementById('display-section');
+    const receipt = document.getElementById('receipt');
+
+    // Adjust the height of the display section to fit the receipt
+    displaySection.style.height = `${receipt.scrollHeight}px`;
+
+    html2canvas(displaySection).then(canvas => {
         const link = document.createElement('a');
         link.download = 'receipt.png';
         link.href = canvas.toDataURL();
         link.click();
+
+        // Reset the height of the display section after saving the image
+        displaySection.style.height = 'auto';
     });
 }
 
