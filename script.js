@@ -18,9 +18,44 @@ function updateDisplay() {
         case 'ธ.กรุงไทย':
             bankLogoUrl = 'https://github.com/useronlineid/document1/blob/main/KTB.png?raw=true'; // Replace with actual URL
             break;
+        case 'ธ.กรุงเทพ':
+            bankLogoUrl = 'https://github.com/useronlineid/Theslipcame/blob/main/BBL.png?raw=true'; // Replace with actual URL
+            break;
+        case 'ธ.ไทยพาณิชย์':
+            bankLogoUrl = 'https://github.com/useronlineid/Theslipcame/blob/main/SCB.png?raw=true'; // Replace with actual URL
+            break;
+        case 'ธ.กรุงศรีอยุธยา':
+            bankLogoUrl = 'https://github.com/useronlineid/Theslipcame/blob/main/BAY.png?raw=true'; // Replace with actual URL
+            break;
         case 'ธ.ทหารไทยธนชาต':
             bankLogoUrl = 'https://github.com/useronlineid/Theslipcame/blob/main/TTB1.png?raw=true'; // Replace with actual URL
             break;
+        case 'ธ.ออมสิน':
+            bankLogoUrl = 'https://github.com/useronlineid/Theslipcame/blob/main/O.png?raw=true'; // Replace with actual URL
+            break;
+        case 'ธ.ก.ส.':
+            bankLogoUrl = 'https://github.com/useronlineid/Theslipcame/blob/main/T.png?raw=true'; // Replace with actual URL
+            break;
+        case 'ธ.อาคารสงเคราะห์':
+            bankLogoUrl = 'https://github.com/useronlineid/Theslipcame/blob/main/C.png?raw=true'; // Replace with actual URL
+            break;
+        case 'ธ.เกียรตินาคินภัทร':
+            bankLogoUrl = 'https://github.com/useronlineid/Theslipcame/blob/main/K.png?raw=true'; // Replace with actual URL
+            break;
+        case 'ธ.ซีไอเอ็มบีไทย':
+            bankLogoUrl = 'https://github.com/useronlineid/Theslipcame/blob/main/CIMB.png?raw=true'; // Replace with actual URL
+            break;
+        case 'ธ.ยูโอบี':
+            bankLogoUrl = 'https://github.com/useronlineid/Theslipcame/blob/main/UOB.png?raw=true'; // Replace with actual URL
+            break;
+        case 'ธ.แลนด์ แอนด์ เฮาส์':
+            bankLogoUrl = 'https://github.com/useronlineid/Theslipcame/blob/main/LHBANK.png?raw=true'; // Replace with actual URL
+            break;
+        case 'ธ.ไอซีบีซี':
+            bankLogoUrl = 'https://github.com/useronlineid/Theslipcame/blob/main/ICBC.png?raw=true'; // Replace with actual URL
+            break;
+          
+            
         // Add more cases for other banks
     }
     document.getElementById('display-bank-logo').src = bankLogoUrl;
