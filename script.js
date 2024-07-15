@@ -8,7 +8,6 @@ function updateDisplay() {
     document.getElementById('display-receiver-account').innerText = document.getElementById('receiver-account').value;
     document.getElementById('display-transaction-id').innerText = document.getElementById('transaction-id').value;
     document.getElementById('display-amount').innerText = document.getElementById('amount').value + ' บาท';
-    document.getElementById('display-fee').innerText = '0.00 บาท';
     document.getElementById('display-bank').innerText = document.getElementById('bank').value;
 
     let bankLogoUrl = ''; // You need to set the appropriate logo URL based on the selected bank
@@ -29,22 +28,11 @@ function updateDisplay() {
 }
 
 function saveAsImage() {
-    const displaySection = document.getElementById('display-section');
-    const receipt = document.querySelector('.receipt');
-
-    // Adjust the height of the display section to fit the receipt
-    displaySection.style.height = `${receipt.scrollHeight}px`;
-
-    html2canvas(displaySection, {
-        useCORS: true, // Enable cross-origin images
-    }).then(canvas => {
+    html2canvas(document.getElementById('display-section')).then(canvas => {
         const link = document.createElement('a');
         link.download = 'receipt.png';
         link.href = canvas.toDataURL();
         link.click();
-
-        // Reset the height of the display section after saving the image
-        displaySection.style.height = 'auto';
     });
 }
 
