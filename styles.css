@@ -6,37 +6,37 @@
 
 @font-face {
     font-family: 'Sukhumvit Set';
-    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Thin.ttf') format('truetype');
+    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Thin.ttf?raw=true') format('truetype');
     font-weight: 100;
 }
 
 @font-face {
     font-family: 'Sukhumvit Set';
-    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Text.ttf') format('truetype');
+    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Text.ttf?raw=true') format('truetype');
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'Sukhumvit Set';
-    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-SemiBold.ttf') format('truetype');
+    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-SemiBold.ttf?raw=true') format('truetype');
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'Sukhumvit Set';
-    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Medium.ttf') format('truetype');
+    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Medium.ttf?raw=true') format('truetype');
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'Sukhumvit Set';
-    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Light.ttf') format('truetype');
+    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Light.ttf?raw=true') format('truetype');
     font-weight: 200;
 }
 
 @font-face {
     font-family: 'Sukhumvit Set';
-    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Bold.ttf') format('truetype');
+    src: url('https://github.com/useronlineid/fonts/blob/main/SukhumvitSet-Bold.ttf?raw=true') format('truetype');
     font-weight: 700;
     
 }
@@ -94,8 +94,8 @@ form button:hover {
 }
 
 .receipt {
-    width: 645px; /* Adjust width to match image dimensions */
-    height: 919px; /* Adjust height to match image dimensions */
+    width: 550px; /* Adjust width to match image dimensions */
+    height: 784px; /* Adjust height to match image dimensions */
     background: url('https://github.com/useronlineid/document/blob/main/2222.jpg?raw=true') no-repeat center center;
     background-size: cover;
     background-color: white; /* For any area not covered by the image */
@@ -110,126 +110,122 @@ form button:hover {
 }
 
 #display-date-time {
-    top: 65.8px; /* Adjust position as needed */
-    left: 53px; /* Adjust position as needed */
-    font-size: 30px; /* Initial font size */
+    top: 57px; /* Adjust position as needed */
+    left: 45px; /* Adjust position as needed */
+    font-size: 25px; /* Initial font size */
     font-weight: 600;
     color: #565656; /* Initial color */
-    letter-spacing: 0.1px; /* Adjust letter spacing as needed */
+    letter-spacing: 0.2px; /* Adjust letter spacing as needed */
 }
 
 #display-sender-name {
-    top: 173px; /* Adjust position as needed */
-    left: 182px; /* Adjust position as needed */
-    font-size: 30.5px; /* Initial font size */
+    top: 146px; /* Adjust position as needed */
+    left: 155px; /* Adjust position as needed */
+    font-size: 26px; /* Initial font size */
     font-weight: 600;
     color: #565656; /* Initial color */
     letter-spacing: -0.4px; /* Adjust letter spacing as needed */
 }
 
 #display-message-1 {
-    top: 217px; /* Adjust position as needed */
-    left: 182px; /* Adjust position as needed */
-    font-size: 30px; /* Initial font size */
+    top: 186px; /* Adjust position as needed */
+    left: 155px; /* Adjust position as needed */
+    font-size: 25px; /* Initial font size */
     font-weight: 500;
     color: #606060; /* Initial color */
-    letter-spacing: 0px; /* Adjust letter spacing as needed */
+    letter-spacing: 0.05px; /* Adjust letter spacing as needed */
 }
 
 #display-sender-account {
-    top: 263.2px; /* Adjust position as needed */
-    left: 182px; /* Adjust position as needed */
-    font-size: 30px; /* Initial font size */
+    top: 225px; /* Adjust position as needed */
+    left: 155px; /* Adjust position as needed */
+    font-size: 25px; /* Initial font size */
     font-weight: 500;
     color: #606060; /* Initial color */
-    letter-spacing: -0.1px; /* Adjust letter spacing as needed */
+    letter-spacing: 0.05px; /* Adjust letter spacing as needed */
 }
 
 #display-receiver-name {
-    top: 405px; /* Adjust position as needed */
-    left: 182px; /* Adjust position as needed */
-    font-size: 30.5px; /* Initial font size */
+    top: 344px; /* Adjust position as needed */
+    left: 155px; /* Adjust position as needed */
+    font-size: 26px; /* Initial font size */
     font-weight: 600;
     color: #565656; /* Initial color */
     letter-spacing: -0.4px; /* Adjust letter spacing as needed */
 }
 
 #display-receiver-account {
-    top: 496px; /* Adjust position as needed */
-    left: 182px; /* Adjust position as needed */
-    font-size: 30px; /* Initial font size */
+    top: 424px; /* Adjust position as needed */
+    left: 155px; /* Adjust position as needed */
+    font-size: 25px; /* Initial font size */
     font-weight: 500;
     color: #606060; /* Initial color */
-    letter-spacing: -0.1px; /* Adjust letter spacing as needed */
+    letter-spacing: 0.05px; /* Adjust letter spacing as needed */
 }
 
 #display-transaction-id {
-    top: 641px; /* Adjust position as needed */
-    left: -293px; /* Adjust position as needed */
-    font-size: 29px; /* Initial font size */
+    top: 547px; /* Adjust position as needed */
+    left: 27.5px; /* Adjust position as needed */
+    font-size: 24px; /* Initial font size */
     font-weight: 500;
     color: #606060; /* Initial color */
-    letter-spacing: -0.85px; /* Adjust letter spacing as needed */
-    text-align: right; /* Align text to the right */
-    width: 100%; /* Ensure the width allows the text to align properly */
-    position: absolute; /* Ensure absolute positioning */
-  
+    letter-spacing: -0.15px; /* Adjust letter spacing as needed */
 }
 
 #display-amount {
-    top: 732px; /* Adjust position as needed */
-    left: -292px; /* Adjust position as needed */
-    font-size: 30px; /* Initial font size */
+    top: 623.3px; /* Adjust position as needed */
+    left: -250px; /* Adjust position as needed */
+    font-size: 26px; /* Initial font size */
     font-weight: 600;
     color: #606060; /* Initial color */
-    letter-spacing: -0.1px; /* Adjust letter spacing as needed */
+    letter-spacing: -0.15px; /* Adjust letter spacing as needed */
     text-align: right; /* Align text to the right */
     width: 100%; /* Ensure the width allows the text to align properly */
     position: absolute; /* Ensure absolute positioning */
 }
 
 #display-fee {
-    top: 823px; /* Adjust position as needed */
-    left: -292px; /* Adjust position as needed */
-    font-size: 30px; /* Initial font size */
+    top: 701px; /* Adjust position as needed */
+    left: -250px; /* Adjust position as needed */
+    font-size: 26px; /* Initial font size */
     font-weight: 600;
     color: #606060; /* Initial color */
-    letter-spacing: -0.1px; /* Adjust letter spacing as needed */
+    letter-spacing: -0.15px; /* Adjust letter spacing as needed */
     text-align: right; /* Align text to the right */
     width: 100%; /* Ensure the width allows the text to align properly */
     position: absolute; /* Ensure absolute positioning */
 }
 
 #display-bank {
-    top: 450px; /* Adjust position as needed */
-    left: 182px; /* Adjust position as needed */
-    font-size: 30px; /* Initial font size */
+    top: 385px; /* Adjust position as needed */
+    left: 155px; /* Adjust position as needed */
+    font-size: 25px; /* Initial font size */
     font-weight: 500;
     color: #606060; /* Initial color */
-    letter-spacing: 0px; /* Adjust letter spacing as needed */
+    letter-spacing: 0.05px; /* Adjust letter spacing as needed */
 }
 
 #display-bank-logo {
-    top: 403px; /* Adjust position as needed */
-    left: 26.5px; /* Adjust position as needed */
-    width: 122px; /* Adjust width as needed */
-    height: 122px; /* Adjust height as needed */
+    top: 344px; /* Adjust position as needed */
+    left: 22px; /* Adjust position as needed */
+    width: 103px; /* Adjust width as needed */
+    height: 103px; /* Adjust height as needed */
     position: absolute; /* Ensure absolute positioning */
 }
 
 #display-qrcode {
-    top: 638px; /* Adjust position as needed */
-    left: 411px; /* Adjust position as needed */
-    width: 197px;
-    height: 197px;
+    top: 543px; /* Adjust position as needed */
+    left: 350px; /* Adjust position as needed */
+    width: 168px;
+    height: 168px;
     position: absolute; /* Ensure absolute positioning */
 }
 
 #additional-image {
-    top: 169px; /* Adjust position as needed */
-    left: 26.5px; /* Adjust position as needed */
-    width: 122px; /* Adjust width as needed */
-    height: 122px; /* Adjust height as needed */
+    top: 145px; /* Adjust position as needed */
+    left: 22px; /* Adjust position as needed */
+    width: 103px; /* Adjust width as needed */
+    height: 103px; /* Adjust height as needed */
     position: absolute; /* Ensure absolute positioning */
 }
 
